@@ -1,0 +1,43 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    width: 410px;
+    height: 220px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background-color: white;
+
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .price{
+    font-style:unset;
+    color: #17ae60;
+  }
+
+  .category{
+    background-color: #99aea3;
+    border-radius: 0.3rem;
+    justify-content:end;
+  }
+
+img {
+    height: 100%;
+    width: 200px;
+}
+
+body{
+  background-color: #ebebeb;
+}
